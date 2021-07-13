@@ -1,0 +1,37 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common */
+body{
+  color: #fff;
+}
+
+/* typo */
+h2{
+  color: #000;
+}
+
+/* main */
+.row > div{
+  padding: 15px;
+  min-height: 50px;
+  text-align: center;
+  background-color: #006cfa;
+  border: 1px solid #fff;
+}
+
+.row > div .nested{
+  padding: 15px;
+  text-align: center;
+  background-color: #00e165;
+  border: 1px solid #006cfa;
+}
+
+.section-2{
+  margin-top: 30px;
+}
+
