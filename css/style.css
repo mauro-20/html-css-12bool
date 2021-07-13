@@ -35,3 +35,44 @@ h2{
   margin-top: 30px;
 }
 
+/* bonus */
+.container-web-site{
+  margin-top: 100px;
+}
+
+.container-web-site div{
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+header{
+  background-color: blue;
+}
+
+header li{
+  height: 50px;
+  list-style: none;
+  border: 1px solid gray;
+}
+
+main .hero{
+  height: 200px;
+  background-color: green;
+}
+
+main .section-1{
+  min-height: 400px;
+}
+
+main .section-1 div:not(.row){
+  border: 1px solid blue;
+}
+
+footer{
+  background-color: red;
+}
+
+footer div{
+  border: 1px solid blue;
+}
