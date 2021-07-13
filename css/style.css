@@ -73,6 +73,6 @@ footer{
   background-color: red;
 }
 
-footer div{
+footer.row > div{
   border: 1px solid blue;
 }
